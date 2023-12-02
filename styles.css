@@ -1,7 +1,49 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+/* Base styles */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-/* Happy coding! */
+.title {
+    color: #333;
+}
+
+/* BEM styles for the Dark Side */
+.dark-side {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.dark-side__title {
+    font-size: 24px;
+}
+
+.dark-side__image {
+    width: 80%;
+    max-width: 300px;
+}
+
+.dark-side__text {
+    margin-bottom: 10px;
+}
+
+/* BEM styles for the Force */
+.force {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.force__title {
+    font-size: 24px;
+}
+
+.force__image {
+    width: 80%;
+    max-width: 300px;
+}
+
+.force__text {
+    margin-bottom: 10px;
+}
